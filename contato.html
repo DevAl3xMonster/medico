@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="sobre.html">Sobre a clínica</a></li>
+                <li><a href="horario.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="img\bannermed.webp" width="800px">
+
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+
+                <h1>Contato</h1>
+                <div class="imagem">
+                    <img src="img\contato.jpeg" width="300px ">
+                </div>
+                <form action="/contato" method="post">
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome">
+                    </div>
+                    <div>
+                        <label for="telefone">telefone:</label>
+                        <input type="tel" id="telefone">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div>
+                        <label for="comentario">Comentário:</label>
+                        
+                        <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea><br>
+                        <input type="submit" value="Enviar Comentário">
+                    </div>
+                </form>
+                </div>
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+                
+                <p style="color: rgb(255, 255, 255)"> <b>Todos os direitos Reservados © 2024</b></p>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
